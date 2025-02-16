@@ -11,5 +11,8 @@ require("config.lazy")
 -- Load options configuration for my user preferences
 require("config.option")
 
+-- Load autocommands
+require("config.autocommands")
+
 -- Set the colorscheme
 vim.cmd([[colorscheme onedark]])
