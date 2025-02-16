@@ -12,7 +12,7 @@ require("config.lazy")
 require("config.option")
 
 -- Load autocommands
-require("config.autocommands")
+require("config.autocommand")
 
 -- Set the colorscheme
-vim.cmd([[colorscheme onedark]])
+vim.cmd([[colorscheme habamax]])
