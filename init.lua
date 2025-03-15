@@ -5,7 +5,7 @@
 -- Load keymap configurations before loading plugins from lazy.
 require("config.keymap")
 
--- https://lazy.folke.io/installation
+-- https://lazy.folke.io/instalation
 require("config.lazy")
 
 -- Load options configuration for my user preferences
@@ -15,4 +15,6 @@ require("config.option")
 require("config.autocommand")
 
 -- Set the colorscheme
-vim.cmd([[colorscheme habamax]])
+vim.cmd([[colorscheme solarized ]])
+
+vim.o.background = "dark"

@@ -10,6 +10,10 @@ local appearance = {
 		"nvim-tree/nvim-web-devicons",
 		enabled = true,
 	},
+	{
+		"maxmx03/solarized.nvim",
+		enabled = true,
+	},
 }
 
 return appearance
