@@ -11,3 +11,6 @@ vim.g.maplocalleader = "\\"
 
 -- reload config
 vim.keymap.set("n", "<leader><leader>x", "<cmd>source %<CR> <cmd>echo 'reloaded config!'<CR>")
+
+-- Open Explore
+vim.keymap.set("n", "<leader>e", "<cmd>Explore <CR>")
